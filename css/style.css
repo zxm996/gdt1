@@ -1,0 +1,355 @@
+body {
+	padding: 0px;
+	color: #474747;
+	font-family: '微软雅黑';
+	
+	background-color: #f5f5f5;
+}
+.body2 {
+	width: 70%;
+	display: block;
+	margin: 10px auto 0px;
+	background-color: #fff;
+}
+li{
+	list-style: none;
+}
+a {
+	color: #333;
+}
+a:link {
+	color: #333;
+	text-decoration:none;
+}
+a:active:{
+	color: #333;
+	text-decoration:none;	
+}
+a:visited {
+	color: #333;
+	text-decoration:none;
+}
+a:hover {
+	color: #333;
+	text-decoration:none;
+}
+
+/*header*/
+.header {
+	display: flex;
+	height: 120px;
+	border-bottom: 1px #c3c3c3 solid;
+}
+.header > img {
+	height: 120px;
+}
+.header > p {
+	flex: 1;
+	display: block;
+	line-height: 120px;
+	font-size: 54px;
+	letter-spacing: 5px;
+	text-align: center;
+	color: #474747;
+}
+.navigation {
+	width: 92%;
+	display: block;
+	margin: 0 auto;
+	padding: 50px 10px;
+	/*background-color: #f00;*/
+}
+.navigation > ul {
+	padding: 0;
+}
+.navigation > ul > li {
+	display: inline-block;
+	letter-spacing: 2px;
+	font-size: 44px;
+	text-align: center;
+	color: #000;
+}
+.navigation > ul > li span {
+	color: #cfcfcf;
+	padding: 0 20px;
+}
+
+/*section*/
+.section-img {
+	width: 100%;
+}
+
+/*纯正野生*/
+.pure {
+	background-color: #fafafa;
+	height: 170px;
+	display: flex;
+	padding: 0 40px;
+}
+.pure > .pure-box {
+	display: flex;
+	width: 33%;
+	padding: 0 32px;
+}
+.pure > .pure-box > img {
+	width: 50px;
+	height: 50px;
+	margin-top: 55px;
+	margin-right: 10px;
+}
+.pure > .pure-box > p {
+	font-size: 42px;
+	line-height: 170px;
+	text-align: center;
+}
+
+/*text1*/
+.section-box1 {
+	padding: 100px 50px 50px;
+	display: flex;
+}
+.section-box1 > .img {
+	display: block;
+	width: 60%;
+	height: auto;
+}
+.section-box1 > .img > .leftimg {
+	width: 100%;
+	height: 700px;
+}
+.section-box1 > .righttext {
+	flex: 1;
+	padding: 60px 50px;
+	font-size: 42px;
+	letter-spacing: 5px;
+}
+
+.section-img1 > img {
+	width: 100%;
+	padding: 0 50px;
+}
+
+/*我们严选*/
+.section1 {
+	margin-top: 200px;
+	padding: 0 50px;
+}
+.section1 > .title1 {
+	text-align: center;
+	font-size: 54px;
+	font-weight: bold;
+	letter-spacing: 8px;
+}
+.section1 > .title-line {
+	position: relative;
+	display: block;
+}
+.section1 > .title-line::before {
+	content: '';
+	position: absolute;
+    width: 25%;
+    height: 2px;
+    left: 7%;
+    top: -35px;
+	background: -webkit-linear-gradient(left, #fff , #969696);
+    background: -o-linear-gradient(right, #fff , #969696); 
+    background: -moz-linear-gradient(right, #fff , #969696);
+    background: linear-gradient(to right, #fff , #969696); 
+}
+.section1 > .title-line::after {
+	content: '';
+	display: block;
+	position: absolute;
+	width: 25%;
+    height: 2px;
+    right: 7%;
+    top: -35px;
+	background: -webkit-linear-gradient(left, #969696 , #fff); 
+    background: -o-linear-gradient(right, #969696 , #fff); 
+    background: -moz-linear-gradient(right, #969696 , #fff);
+    background: linear-gradient(to right, #969696 , #fff); 
+}
+.section1 > .title2 {
+	text-align: center;
+	font-size: 36px;
+	padding: 30px 0 110px;
+}
+.section1 > .box1 {
+	display: flex;
+}
+.section1 > .box1 > .con {
+	width: 48%;
+	height: 500px;
+	display: inline-block;
+}
+.section1 > .box1 > .con1 {
+	width: 2%;
+	display: inline-block;
+}
+.section1 > .box1 > .con > img {
+	width: 100%;
+}
+.section1 > .box1 > .con > .title {
+	font-size: 48px;
+	line-height: 100px;
+	font-weight: bold;
+	text-align: center;
+	letter-spacing: 2px;
+}
+.section1 > .box1 > .con > .text {
+	font-size: 36px;
+	width: 100%;
+}
+/*生长青藏之巅*/
+.section2 {
+	margin-top: 200px;
+	padding: 0 50px;
+}
+.section2 > .title ,
+.section2 > .title1{
+	text-align: center;
+	font-size: 54px;
+	line-height: 2;
+	font-weight: bold;
+}
+.section2 > .title1 {
+	padding-bottom: 50px;
+}
+.section2 > .con {
+	border: 2px #e1e1e1 solid;
+	height: 500px;
+	width: 100%;
+	display: flex;
+	margin-top: 50px;
+}
+.section2 > .con > img {
+	width: 52%;
+	height: 498px;
+}
+.section2 > .con > .con2 {
+	padding: 50px 40px;
+}
+.section2 > .con > .con2 > .title2 {
+	text-align: center;
+	font-size: 50px;
+	line-height: 1.5;
+	letter-spacing: 2px;
+	font-weight: bold;
+}
+.section2 > .con > .con2 > .title3 {
+	text-align: center;
+	font-size: 44px;
+	line-height: 1.8;
+}
+.section2 > .con > .con2 > .text {
+	margin-top: 40px;
+	font-size: 38px;
+	line-height: 1.4;
+}
+/*section3、*/
+.section3 {
+	padding: 0 50px;
+	margin-top: 100px;
+}
+.section3 > .box1 {
+	display: flex;
+}
+.section3 > .box1 > .con {
+	display: inline-block;
+	width: 48%;
+	margin: 20px 0;
+}
+.section3 > .box1 > .con2 {
+	display: inline-block;
+	width: 2%;
+}
+.section3 > .box1 > .con > img {
+	width: 100%;
+	height: 380px;
+}
+.section3 > .box1 > .con > .title {
+	text-align: center;
+	font-size: 50px;
+	font-weight: bold;
+	line-height: 90px;
+}
+.section3 > .box1 > .con > .text {
+	text-align: center;
+	font-size: 36px;
+}
+/*关于我们*/
+.section1 > .name {
+	text-align: center;
+	font-size: 54px;
+	font-weight: bold;
+	margin-top: 70px;
+	margin-bottom: 50px;
+	letter-spacing: 2px;
+}
+.section1 > .textp {
+	text-align: center;
+	font-size: 40px;
+	letter-spacing: 2px;
+	margin-bottom: 40px;
+}
+/*联系我们*/
+.section4 {
+	margin-top: 150px;
+	background-color: #f8f8f8;
+	padding: 70px 50px 60px;
+}
+.section4 > .title1 {
+	text-align: center;
+	font-size: 54px;
+	font-weight: bold;
+	letter-spacing: 5px;
+}
+.section4 > .title2 {
+	text-align: center;
+	font-size: 38px;
+	line-height: 80px;
+	letter-spacing: 2px;
+}
+.section4 > .ewm {
+	width: 49%;
+	display: inline-block;
+	margin-top: 100px;
+}
+.section4 > .ewm > img {
+	width: 55%;
+	display: block;
+	margin: 0 auto;
+	padding: 1px;
+	border: 1px #ededed solid;
+}
+.section4 > .ewm > .title1 {
+	text-align: center;
+	font-size: 44px;
+}
+.section4 > .ewm > .phone {
+	text-align: center;
+	font-size: 34px;
+}
+/*页脚*/
+footer {
+	background-color: #d1d1d1;
+	padding: 50px 0;
+	color: #fff;
+	letter-spacing: 3px;
+}
+footer > .title1 {
+	text-align: center;
+	font-size: 50px;
+}
+footer > .text1 {
+	text-align: center;
+	font-size: 34px;
+	line-height: 1.2;
+}
+
+@media (max-width: 1024px) {
+	.body2 {
+		width: 100%;
+		margin: 0px;
+	}
+} 
